@@ -41,11 +41,23 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-   
-          {% if post.YouTube or post.Bilibili or post.GitHub %}
+          {% if post.date %}
+            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% else %}
+            <p>Unpublished research</p>
+          {% endif %}
+
+          {% if post.Website %}
+          <p>Explore our project website for details: 
+              <a href="{{ post.Website }}" title="Website" target="_blank" style="text-decoration: none; color: #444;">
+                <i class="fab fa-fw fa-chrome" aria-hidden="true" style="color: #444"></i> Website
+              </a>
+          </p>
+          {% endif %}
+
+          {% if post.YouTube or post.Bilibili %}
           <div>
-            <p>Media: 
+            <p>Videos: 
               {% if post.YouTube %}
                 <a href="{{ post.YouTube }}" title="YouTube" target="_blank" style="text-decoration: none; color: #444;">
                   <i class="fab fa-fw fa-youtube" aria-hidden="true" style="color: rgb(179, 2, 2)"></i> YouTube
@@ -60,14 +72,15 @@
                   </svg> Bilibili
                 </a>
               {% endif %}
-
-              {% if post.GitHub %}
-                <a href="{{ post.GitHub }}" title="GitHub" target="_blank" style="text-decoration: none; color: #444;">
-                  <i class="fab fa-fw fa-github" aria-hidden="true" style="color: #444"></i> GitHub
-                </a>
-              {% endif %}
             </p>
           </div>
+          {% endif %}
+          {% if post.GitHub %}
+          <p> Code: 
+              <a href="{{ post.GitHub }}" title="GitHub" target="_blank" style="text-decoration: none; color: #444;">
+                <i class="fab fa-fw fa-github" aria-hidden="true" style="color: #444"></i> GitHub
+              </a>
+          </p>
           {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>

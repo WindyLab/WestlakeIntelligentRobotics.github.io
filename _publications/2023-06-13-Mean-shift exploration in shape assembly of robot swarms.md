@@ -12,5 +12,7 @@ citation: 'G. Sun, R. Zhou, Z. Ma, Y. Li, R. Gro?, Z. Chen, and S. Zhao*, &quot;
 ---
 This paper is about the number 1. The number 4 is left for future work.
 
-**YouTube Link:** [Watch on YouTube](<https://youtu.be/inoifg2tcJM>)**Blibili Link**[Watch on Bilibili](<https://www.bilibili.com/video/BV1Pk4y1H7A3/?vd_source=288648f5b920459d12ebbcfd2da00a19>)
+**YouTube Link:** [Watch on YouTube](<https://youtu.be/inoifg2tcJM>)
+**Blibili Link**[Watch on Bilibili](<https://www.bilibili.com/video/BV1Pk4y1H7A3/?vd_source=288648f5b920459d12ebbcfd2da00a19>)
+
 **GitHub Repository** [View on GitHub](<https://github.com/WestlakeIntelligentRobotics/Shape-assembly-code>)

@@ -11,4 +11,5 @@ citation: 'X. Zhang, Y. Zhang, P. Liu, and S. Zhao*, &quot;Robust localization o
 ---
 This paper is about the number 1. The number 8 is left for future work.
 
-**YouTube Link:** [Watch on YouTube](<https://youtu.be/t6-0zaRuFIY>)**Blibili Link**[Watch on Bilibili](<https://www.bilibili.com/video/BV11T4y1m7tN/>)
+**YouTube Link:** [Watch on YouTube](<https://youtu.be/t6-0zaRuFIY>)
+**Blibili Link**[Watch on Bilibili](<https://www.bilibili.com/video/BV11T4y1m7tN/>)

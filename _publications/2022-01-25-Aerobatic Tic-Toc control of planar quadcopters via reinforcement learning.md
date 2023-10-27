@@ -11,4 +11,5 @@ citation: 'Z. Wang, R. Gross, and S. Zhao*, &quot;Aerobatic Tic-Toc control of p
 ---
 This paper is about the number 1. The number 9 is left for future work.
 
-**YouTube Link:** [Watch on YouTube](<https://youtu.be/KbBIU012xYY>)**Blibili Link**[Watch on Bilibili](<https://www.bilibili.com/video/BV19a411q7mx/>)
+**YouTube Link:** [Watch on YouTube](<https://youtu.be/KbBIU012xYY>)
+**Blibili Link**[Watch on Bilibili](<https://www.bilibili.com/video/BV19a411q7mx/>)
