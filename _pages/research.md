@@ -1,12 +1,11 @@
 ---
-permalink: /research
+permalink: /research/
 title: ""
 excerpt: "Research"
 author_profile: true
 ---
 
 Our lab focuses on novel theories and applications of robotic systems, especially multi-robot systems. We are interested in next-generation robotic systems that are interesting, meaningful, and challenging to study.
-
 
 **Robotic swarming systems**
 
@@ -15,7 +14,6 @@ There are many interesting collective behaviors in biological systems in nature 
 ![Swarm Robot](\images\research_1)
 
 ![Swarm Robot](\images\research_2)
-
 
 **Aerial target sensing and pursuit**
 
