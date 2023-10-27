@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: cards
 title: "Recent Works"
 permalink: /recent_works/
 author_profile: true
