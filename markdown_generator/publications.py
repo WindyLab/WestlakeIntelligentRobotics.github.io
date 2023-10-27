@@ -78,6 +78,15 @@ for row, item in publications.iterrows():
     
     if len(str(item.excerpt)) > 5:
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
+
+    if len(str(item.Youtube)) > 5:
+        md += "\nYouTube: '" + html_escape(item.Youtube) + "'"
+
+    if len(str(item.Bilibili)) > 5:
+        md += "\nBilibili: '" + html_escape(item.Bilibili) + "'"
+
+    if len(str(item.GitHub)) > 5:
+        md += "\nGitHub: '" + html_escape(item.GitHub) + "'"
     
     md += "\ndate: " + str(item.pub_date) 
     
@@ -97,8 +106,17 @@ for row, item in publications.iterrows():
         
     if len(str(item.excerpt)) > 5:
         md += "\n" + html_escape(item.excerpt) + "\n"
-        
-    md += "\nRecommended citation: " + item.citation
+    
+    if len(str(item.Youtube)) > 5:
+        md += "\n**YouTube Link:** [Watch on YouTube](<" + html_escape(item.Youtube) + ">)"
+
+    if len(str(item.Bilibili)) > 5:
+        md += "**Blibili Link**[Watch on Bilibili](<" + html_escape(item.Bilibili) + ">)"
+
+    if len(str(item.GitHub)) > 5:
+        md += "\n**GitHub Repository** [View on GitHub](<" + html_escape(item.GitHub) + ">)"
+
+    # md += "\nRecommended citation: " + item.citation
     
     md_filename = os.path.basename(md_filename)
        
