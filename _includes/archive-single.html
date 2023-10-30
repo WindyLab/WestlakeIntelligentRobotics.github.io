@@ -45,8 +45,6 @@
       {% elsif post.collection == 'publications' %}
         {% if post.date %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% else %}
-          <p>Unpublished research</p>
         {% endif %}
         <!-- <div class="section">
           {% if post.Website %}

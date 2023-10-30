@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Intelligent Unmanned Systems Laboratory at Westlake University"
+# title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
