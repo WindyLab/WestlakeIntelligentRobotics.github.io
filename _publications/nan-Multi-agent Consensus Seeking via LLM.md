@@ -1,7 +1,8 @@
 ---
-title: "Multi-agent Consensus Seeking via LLM"
+title: "Multi-Agent Consensus Seeking via Large Language Models"
 collection: publications
-permalink: /recent_works/nan-Multi-agent Consensus Seeking via LLM
+permalink: /ConsensusLLM
+link: https://westlakeintelligentrobotics.github.io/ConsensusLLM
 GitHub: 'https://github.com/WestlakeIntelligentRobotics/ConsensusLLM-code'
 Website: 'https://westlakeintelligentrobotics.github.io/ConsensusLLM/'
 excerpt: 'This work explores LLM-driven multi-agent consensus seeking, uncovering a preference for average strategies and the influence of agent personalities and network topologies, with implications for multi-robot aggregation and complex task understanding.'
