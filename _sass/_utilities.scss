@@ -183,7 +183,19 @@ body:hover .visually-hidden button {
 
 .social-icons {
   .fa {
-    color: #000;
+    color: #444;
+  }
+
+  .fas {
+    color: #444;
+  }
+
+  .fab {
+    color: #444;
+  }
+
+  svg {
+    fill: #444;
   }
 
   .fa-behance,
@@ -208,11 +220,15 @@ body:hover .visually-hidden button {
     color: $foursquare-color;
   }
 
-  .fa-github,
-  .fa-github-alt,
-  .fa-github-square {
-    color: $github-color;
-  }
+  // .fa-zhihu {
+  //   color: $zhihu-color
+  // }
+
+  // .fa-github,
+  // .fa-github-alt,
+  // .fa-github-square {
+  //   color: $github-color;
+  // }
 
   .fa-google-plus,
   .fa-google-plus-square {
@@ -272,11 +288,11 @@ body:hover .visually-hidden button {
     color: $vine-color;
   }
 
-  .fa-youtube,
-  .fa-youtube-square,
-  .fa-youtube-play {
-    color: $youtube-color;
-  }
+  // .fa-youtube,
+  // .fa-youtube-square,
+  // .fa-youtube-play {
+  //   color: $youtube-color;
+  // }
 
   .fa-xing,
   .fa-xing-square {

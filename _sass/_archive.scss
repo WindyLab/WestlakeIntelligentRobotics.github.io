@@ -274,6 +274,24 @@
   
   .section a {
     margin-right: 10px;
+    text-decoration: none; 
+    color: #444;
+  }
+
+  .fab {
+    color: #444;
+  }
+
+  svg {
+    fill: $bilibili-color;
+  }
+
+  .fa-github {
+    color: $github-color;
+  }
+
+  .fa-youtube {
+    color: $youtube-color;
   }
 
 }
